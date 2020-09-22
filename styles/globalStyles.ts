@@ -3,37 +3,6 @@ import { theme } from "./theme";
 
 export const GlobalStyles = createGlobalStyle`
 
-  /* @font-face {
-    font-family: "Lora-Bold";
-    src: local('Lora'),url("/fonts/Lora-Bold.ttf") format("ttf");
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-  }
-
-  @font-face {
-    font-family: "Lora";
-    src: local('Lora'),url("/fonts/Lora.ttf") format("ttf");
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-  }
-
-  @font-face {
-    font-family: "Lora-SemiBold";
-    src: local('Lora'),url("/fonts/Lora-SemiBold.ttf") format("ttf");
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-  }
-
-  @font-face {
-    font-family: "Lora-SemiBoldItalic";
-    src: local('Lora'),url("/fonts/Lora-SemiBoldItalic.ttf") format("ttf");
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-  } */
 
   @font-face {
     font-family: "Lora";
