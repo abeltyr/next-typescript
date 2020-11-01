@@ -55,7 +55,7 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => {
             align-items: center;
           }
           .link {
-            color: ${theme.primary1};
+            color: ${theme.dark.primary1};
           }
           /* Chrome, Safari, Edge, Opera */
           input::-webkit-outer-spin-button,

@@ -9,7 +9,7 @@ export const Container = styled.div`
   overflow-x: hidden;
   overflow-y: auto;
   display: block;
-  background: ${theme.primary1};
+  background: ${theme.dark.primary1};
   position:relative;
 `;
 

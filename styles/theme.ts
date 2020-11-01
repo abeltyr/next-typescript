@@ -1,9 +1,24 @@
-const theme = {
+import { textSnippets } from "./textSnippets";
+
+const light = {
   primary1: "#232931",
   primary2: "#393e46",
   text: "#EEEEEE",
   shadow: "#393e46",
   border: "#F5F5F5",
+};
+
+const dark = {
+  primary1: "#FFFFFF",
+  primary2: "#F5F5F5",
+  text: "#515864",
+  shadow: "#515864cc",
+  border: "#51586499",
+};
+
+const theme = {
+  light,
+  dark,
   primary3: "#4ECCA3",
   primary4: "#EEEEEE",
   primary5: "#4fadc1",
@@ -20,12 +35,6 @@ const theme = {
   success: "#2DCCA7",
   warning: "#F7D070",
   error: "#D64545",
-
-  // primary1: "#FFFFFF",
-  // primary2: "#F5F5F5",
-  // text: "#515864",
-  // shadow: "#515864cc",
-  // border: "#51586499",
 
   mobileBreakPoint: {
     XSP: `330px`,
@@ -44,6 +53,8 @@ const theme = {
     XL: `1280px`,
     EXL: `1400px`,
   },
+
+  ...textSnippets,
 } as const;
 
 export { theme };
